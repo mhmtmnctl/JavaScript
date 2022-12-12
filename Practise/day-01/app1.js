@@ -63,8 +63,30 @@ let b=--a;//b=4 a=4
 let c=b++;//c=4 b=5 
 console.log(a,b,c); */
 
+//Örnek-9
+/*     const sayi1 = 5;
+    const sayi2=-7;
+    const isim = "John";
+    const sifir=0;
+    const hic=null;
+    const bos="";
+    const tanimsiz=undefined;
+    const sayiDegil=NaN;
+    console.log(Boolean(sayi1));
+    console.log(Boolean(bos),Boolean(hic),Boolean(sifir),Boolean(tanimsiz),Boolean(sayiDegil)); */
 
+//Örnek -10
+// let isim = prompt("Lütfen isminizi giriniz");
+// if(!isim){
+//     alert("İsminizi girmediniz")
+// }
+// else{
+//     alert(`Hoşgeldiniz Sayın ${isim}`)
+//}
 
-
-
-
+ //Örnek-11
+    let giris = true;
+    let cikis = false;
+    console.log(!giris || cikis || giris);//true
+    console.log(!giris||cikis);//false
+    console.log((giris&&cikis) || (!cikis && !giris));

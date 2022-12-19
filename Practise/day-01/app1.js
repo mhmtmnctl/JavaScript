@@ -90,3 +90,12 @@ console.log(a,b,c); */
     console.log(!giris || cikis || giris);//true
     console.log(!giris||cikis);//false
     console.log((giris&&cikis) || (!cikis && !giris));
+
+
+
+
+
+
+
+
+
